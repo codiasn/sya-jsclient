@@ -1,0 +1,47 @@
+<div class="rating-group"></div>
+
+<style>
+  .c-xya-application-star {
+    width: max-content;
+  }
+
+  .c-xya-application-star .rating-group {
+    display: inline-flex;
+  }
+
+  .c-xya-application-star .rating__icon {
+    pointer-events: none;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url("data:image/svg+xml,%3Csvg id='fi_7656139' enable-background='new 0 0 24 24' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3ClinearGradient id='SVGID_1_' gradientUnits='userSpaceOnUse' x1='12' x2='12' y1='2.42' y2='21.58'%3E%3Cstop offset='0' stop-color='%23ffe61c'%3E%3C/stop%3E%3Cstop offset='1' stop-color='%23ffa929'%3E%3C/stop%3E%3C/linearGradient%3E%3Cpath d='m12.0006 18.9543-4.6878 2.4639c-1.0101.5313-2.1901-.3263-1.9976-1.4513l.8951-5.2204-3.7927-3.6977c-.8177-.7963-.3664-2.1839.7624-2.3489l5.2416-.7613 2.3439-4.7503c.505-1.0238 1.9639-1.0238 2.4689 0l2.3439 4.7503 5.2417.7613c1.1288.1638 1.5801 1.5513.7626 2.3489l-3.7928 3.6977.8951 5.2204c.1925 1.1251-.9876 1.9826-1.9976 1.4513z' fill='url(%23SVGID_1_)'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .c-xya-application-star .rating__input {
+    position: absolute !important;
+    left: -9999px !important;
+  }
+  .c-xya-application-star .rating__label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 2rem;
+  }
+  .c-xya-application-star
+    .rating__input:checked
+    ~ .rating__label
+    .rating__icon {
+    color: #ddd;
+    filter: grayscale(100%);
+  }
+  .c-xya-application-star .rating-group:hover .rating__label .rating__icon {
+    color: orange;
+    filter: grayscale(0%);
+  }
+
+  .c-xya-application-star .rating__input:hover ~ .rating__label .rating__icon {
+    color: #ddd;
+    filter: grayscale(100%);
+  }
+</style>

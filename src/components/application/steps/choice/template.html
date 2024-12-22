@@ -1,0 +1,78 @@
+<div class="c-xya-step-choice--container">
+  <!-- <div class="c-xya-step-choice--options">
+    <input id="cbx" type="checkbox" value="4" name="choicevalue" />
+
+    <label for="cbx">
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          image-rendering="optimizeQuality"
+          shape-rendering="geometricPrecision"
+          text-rendering="geometricPrecision"
+          viewBox="0 0 21.0001 21.0001"
+        >
+          <g>
+            <path d="m0 0h21v21h-21z" fill="none" />
+            <path
+              d="m10.5038 1.31775c5.07328 0 9.1876 4.11432 9.1876 9.1876s-4.11432 9.1876-9.1876 9.1876-9.1876-4.11432-9.1876-9.1876 4.11432-9.1876 9.1876-9.1876zm-1.90792 12.1718-2.24935-2.25121c-.38321-.38344-.38329-1.00872 0-1.39208.38337-.38329 1.01143-.38089 1.39201 0l1.58578 1.58702 3.94488-3.94488c.38337-.38337 1.00872-.38337 1.39201 0 .38337.38329.38282 1.00918 0 1.39201l-4.64201 4.64201c-.38282.38282-1.00872.38337-1.39201 0-.01077-.01077-.02116-.0217-.03131-.03286z"
+            />
+          </g>
+        </svg>
+      </div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit
+    </label>
+  </div> -->
+</div>
+
+<div class="c-xya-btn-grp">
+  <button class="c-xya-btn c-xya-submit-btn prev"></button>
+  <button class="c-xya-btn c-xya-submit-btn next"></button>
+</div>
+
+<style>
+  .c-xya-step-choice--container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .c-xya-step-choice--options input {
+    display: none;
+  }
+
+  .c-xya-step-choice--options label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgba(var(--v-xya-dark), 0.1);
+    border-radius: 0.6em;
+    padding: 10px;
+    cursor: pointer;
+    gap: 10px;
+    line-height: 1;
+    color: rgba(var(--v-xya-dark));
+    transition: all 0.5s ease;
+  }
+
+  .c-xya-step-choice--options label:hover {
+    box-shadow: rgba(var(--v-xya-dark), 0.25) 0px 13px 27px -5px,
+      rgba(var(--v-xya-dark), 0.3) 0px 8px 16px -8px;
+  }
+
+  .c-xya-step-choice--options label svg {
+    width: 18px;
+    fill: currentColor;
+    opacity: 0.3;
+    display: block;
+  }
+
+  .c-xya-step-choice--options input:checked + label svg {
+    fill: #009800;
+    opacity: 1;
+  }
+</style>

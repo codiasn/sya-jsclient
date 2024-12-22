@@ -1,0 +1,89 @@
+<div class="c-xya-application-submitting">
+  <div class="c-xya-application-submitting--loader">
+    <svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 100 100"
+      enable-background="new 0 0 0 0"
+      xml:space="preserve"
+    >
+      <circle stroke="none" cx="6" cy="50" r="6">
+        <animateTransform
+          attributeName="transform"
+          dur="1s"
+          type="translate"
+          values="0 15 ; 0 -15; 0 15"
+          repeatCount="indefinite"
+          begin="0.1"
+        ></animateTransform>
+      </circle>
+      <circle stroke="none" cx="30" cy="50" r="6">
+        <animateTransform
+          attributeName="transform"
+          dur="1s"
+          type="translate"
+          values="0 10 ; 0 -10; 0 10"
+          repeatCount="indefinite"
+          begin="0.2"
+        ></animateTransform>
+      </circle>
+      <circle stroke="none" cx="54" cy="50" r="6">
+        <animateTransform
+          attributeName="transform"
+          dur="1s"
+          type="translate"
+          values="0 5 ; 0 -5; 0 5"
+          repeatCount="indefinite"
+          begin="0.3"
+        ></animateTransform>
+      </circle>
+    </svg>
+  </div>
+
+  <div class="c-xya-application-submitting--success">
+    <div class="message"></div>
+  </div>
+
+  <div class="c-xya-application-submitting--error">
+    <div class="message"></div>
+
+    <div class="c-xya-btn-grp">
+      <button class="c-xya-btn c-xya-submit-btn restart-btn">restart</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .c-xya-application-submitting .c-xya-application-submitting--loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c-xya-application-submitting .c-xya-application-submitting--loader svg {
+    width: 50px;
+    fill: currentColor;
+  }
+
+  .c-xya-application-submitting .c-xya-application-submitting--success,
+  .c-xya-application-submitting .c-xya-application-submitting--error {
+    display: none;
+  }
+
+  .c-xya-application-submitting.error .c-xya-application-submitting--success,
+  .c-xya-application-submitting.error .c-xya-application-submitting--loader {
+    display: none;
+  }
+  .c-xya-application-submitting.error .c-xya-application-submitting--error {
+    display: block;
+  }
+
+  .c-xya-application-submitting.success .c-xya-application-submitting--error,
+  .c-xya-application-submitting.success .c-xya-application-submitting--loader {
+    display: none;
+  }
+  .c-xya-application-submitting.success .c-xya-application-submitting--success {
+    display: block;
+  }
+</style>

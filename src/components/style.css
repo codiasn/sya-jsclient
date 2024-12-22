@@ -1,0 +1,30 @@
+:root {
+  --v-xya-dark: 0, 0, 0;
+  --v-xya-light: 255, 255, 255;
+}
+
+.c-xya-btn {
+  border: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 34px;
+  border-radius: 7px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(var(--v-xya-dark));
+  color: rgba(var(--v-xya-light));
+}
+
+.c-xya-btn:not(:disabled) {
+  cursor: pointer;
+}
+
+.c-xya-btn-grp {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

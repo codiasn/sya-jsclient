@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "xya-jsclient-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx ./index.ts"
+  },
+  "dependencies": {
+    "xya-jsclient": ".."
+  }
+}

@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.6.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\tools\kotlinc\bin;C:\tools\flutter\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Java\jre1.8.0_321\bin;C:\Program Files (x86)\Java\jre1.8.0_333\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\tools\kotlinc\bin;C:\Users\hp\AppData\Local\Pub\Cache\bin;C:\Program Files\PuTTY\;C:\wamp64\bin\php\php8.1.12;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PostgreSQL\16\bin;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\HP\AppData\Local\pnpm;C:\Users\HP\scoop\shims;C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python39\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\Pub\Cache\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\.dotnet\tools;C:\tools\gradle-7.4\bin;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\tools\bin;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\emulator;C:\tools\flutter\bin;C:\Program Files\JetBrains\WebStorm 2021.2\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\HP\.dotnet\tools;C:\Users\HP\.deno\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\HP\AppData\Roaming\Composer\vendor\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  18.20.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile 'C:\Users\HP\Desktop\M.DIA\WORKSPACE\XAYMA\CODES\xya-jsclient\dist\bundle.esm.js' -> 'C:\Users\HP\AppData\Local\Yarn\Cache\v6\npm-xya-jsclient-1.0.5-5fd5fbb4-2c6d-44cf-995a-71f330bb573c-1734834345082\node_modules\xya-jsclient\dist\bundle.esm.js'
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "xya-jsclient-playground",
+    "type": "module",
+    "scripts": {
+      "dev": "nuxi dev",
+      "build": "nuxi build",
+      "generate": "nuxi generate"
+    },
+    "dependencies": {
+      "xya-jsclient": ".."
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
